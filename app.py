@@ -14,3 +14,8 @@ if st.button("🎲 Générer un Orc"):
 # Affichage
 if st.session_state.orc:
     st.code(st.session_state.orc)
+    st.download_button(
+        "💾 Télécharger la fiche",
+        st.session_state.orc,
+        file_name="orc.txt"
+    )
