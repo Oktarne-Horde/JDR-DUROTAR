@@ -1,3 +1,9 @@
+IMAGES_ARMES = {
+    "Hache": "Armure de cuir fin.png",
+    "Épée": "images/epee.png",
+    "Arc": "images/arc.png",
+    "Masse": "images/masse.png"
+}
 import streamlit as st
 from orc_generator import generer_orc
 
